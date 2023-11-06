@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 50px;
+}
+
+.bg-yellow {
+    background-color: #F6E300;
+}
+
+h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+}
+
+.bg-color {
+    background-color: #FFF03F !important;
+}
+
+.max-width {
+    max-width: 806px;
+}
+
+.max-width-536 {
+    max-width: 536px;
+}
+
+.max-width-524 {
+    max-width: 524px;
+}
+
+.no {
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+}
+
+h3 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+}
+
+h2 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+}
+
+.bg-red {
+    background-color: #F4241E;
+}
+
+.para {
+    width: 591px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.border-none {
+    border: none;
+}
+
+.padding {
+    padding: 15px 32px;
+}
+
+.border-radius {
+    border-radius: 10px;
+}
+
+.text-color {
+    color: #FDD3D2;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.supplies {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.jhonedoe {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.mt-60 {
+    margin-top: -60px;
+}
+
+.manager {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.team {
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+}
+
+nav {
+    position: relative;
+    z-index: 2;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute-1 {
+    position: absolute;
+    top: 25px;
+    left: 116px;
+}
+
+.position-absolute-2 {
+    position: absolute;
+    bottom: 100px;
+    left: 15px;
+}
+
+.position-absolute-3 {
+    position: absolute;
+    bottom: 75px;
+    left: 310px;
+}
+
+.position-absolute-4 {
+    position: absolute;
+    top: 0px;
+    left: 330px;
+}
+
+.position-absolute-5 {
+    position: absolute;
+    top: 40px;
+    right: 335px;
+}
+
+.position-absolute-6 {
+    position: absolute;
+    bottom: 40px;
+    right: 299px;
+}
+
+.position-absolute-7 {
+    position: absolute;
+    right: 59px;
+    bottom: 150px;
+}
+
+.position-absolute-8 {
+    position: absolute;
+    top: 14px;
+    right: 68px;
+}
+
+/* position-2 */
+
+.position-relative-2 {
+    position: relative;
+}
+
+.position-absolute-9 {
+    position: absolute;
+    top: 30px;
+    left: 330px;
+}
+
+.position-absolute-10 {
+    position: absolute;
+    top: 350px;
+    left: 40px;
+}
+
+.position-absolute-11 {
+    position: absolute;
+    bottom: 240px;
+    left: 400px;
+}
+
+.position-absolute-12 {
+    position: absolute;
+    bottom: 210px;
+    left: 30px;
+}
+
+.position-absolute-13 {
+    position: absolute;
+    top: 200px;
+    right: 370px;
+}
+
+.position-absolute-14 {
+    position: absolute;
+    top: 50px;
+    right: 70px;
+}
+
+.position-absolute-15 {
+    position: absolute;
+    bottom: 50px;
+    right: 420px;
+}
+
+.position-absolute-16 {
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+}
+
+h1 {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 48px;
+}
+
+.timeline-heading {
+    width: 99.078px;
+    height: 36.027px;
+    font-family: Poppins;
+    font-size: 24px;
+}
+
+.timeline-para {
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: red;
+    top: 4%;
+    bottom: 29%;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.bg-color {
+    background-color: yellow;
+}
+
+.box {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    width: 36.028px;
+    height: 36.027px;
+    right: -18px;
+    background-color: white;
+    top: 10px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.max-width-992{
+    width: 992px;
+}
+.left {
+    left: 0;
+}
+
+.right {
+    left: 50%;
+}
+
+.right::after {
+    left: -18px;
+}
+
+.content {
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+    padding: 27px 23px;
+}
+
+.display-none {
+    display: none;
+}
+
+.btn-1:hover {
+    background-color: #F4241E;
+    color: #FFFFFF;
+    transition: all 200ms linear;
+}
+
+.text-red {
+    color: red;
+}
+
+.btn-2:hover {
+    background-color: #FFFFFF;
+    color: red;
+    transition: all 200ms linear;
+}
+
+.color-white {
+    color: white;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+.margin {
+    margin-top: 52px;
+    padding-bottom: 44px;
+}
+
+@media screen and (max-width: 992px) {
+
+    .timeline::after {
+        left: 31px;
+    }
+
+    .box {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .box::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    .right {
+        left: 0%;
+    }
+}
+
+@media (max-width:1200px) {
+
+    nav .menu {
+        position: fixed;
+        right: -100%;
+        top: 0;
+        height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(to top right, red, yellow);
+        transition: all 200ms linear;
+    }
+
+    nav .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav .menu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 100px;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 2;
+    }
+
+    .icon span {
+        width: 30px;
+        height: 4px;
+        background-color: red;
+        border-radius: 3px;
+        display: inline;
+    }
+
+    #menu-box:checked~.menu {
+        right: 0;
+    }
+
+
+}
+
+@media (max-width:992px) {
+    .we-are-open {
+        padding-top: 40px;
+    }
+
+}
